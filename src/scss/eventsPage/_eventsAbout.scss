@@ -1,0 +1,95 @@
+.eventsAboutPage {
+	padding-top: 117px;
+	padding-bottom: 117px;
+	// .eventsAboutPage__wrapper
+		&__wrapper {
+			
+		}
+		// .eventsAboutPage__aboutTalk
+		&__aboutTalk {}
+		// .eventsAboutPage__aboutCard
+		&__aboutCard {}
+}
+
+.img__plus {
+	display: flex;
+	align-self: flex-end;
+}
+.aboutTalk {
+		// .aboutTalk__title
+		&__title {
+			font-style: normal;
+			font-weight: 900;
+			font-size: 46px;
+			line-height: 130%;
+			color: #1E212C;
+			margin-bottom: 63px;
+			@media(max-width: $breakpoint768){
+				font-size: 36px;
+			}
+		}
+		// .aboutTalk__wrappers
+		&__wrappers {
+			display: flex;
+			margin-bottom: 24px;
+		}
+		&__wrappers:first-child {
+			
+			margin-bottom: 0px;
+		}
+		// .aboutTalk__img
+		&__img {
+			margin-right: 20px;
+			cursor: pointer;
+			@media(max-width: $breakpoint650){
+				margin-right: 10px;
+				align-self: center;
+			}
+		}
+		// .aboutTalk__theme
+		&__theme {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 20px;
+			line-height: 150%;
+			color: #FF3F3A;
+			margin-right: 5px;
+			@media(max-width: $breakpoint650){
+				font-size: 16px;
+				margin-right: 4px;
+				
+			}
+			
+			
+		}
+		// .aboutTalk__text
+		&__text {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 150%;
+			color: #1E212C;
+			@media(max-width: $breakpoint650){
+				font-size: 16px;
+			}
+		}
+		
+		// .aboutTalk__subtext
+		&__subtext {
+			margin-left: 39px;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 160%;
+			max-width: 560px;
+			color: #424551;
+			margin-bottom: 24px;
+
+		}
+}
+
+.eventsTheme__none {
+	display: none;
+}
+
+

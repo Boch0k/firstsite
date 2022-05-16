@@ -1,0 +1,110 @@
+.aboutUsHeader {
+	padding-top: 80px;
+	padding-bottom: 180px;
+		// .aboutUsHeader__Wrapper
+		&__Wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			@media(max-width: $breakpoint825){
+				flex-wrap: wrap;
+				justify-content: center;
+			}
+		}
+		// .aboutUsHeader__info-block
+		&__info-block {
+			max-width: 600px;
+		}
+		// .aboutUsHeader__subtext
+		&__subtext {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 150%;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #1E212C;
+			@media(max-width: $breakpoint480){
+				font-size: 14px;
+			}
+		}
+		// .aboutUsHeader__title
+		&__title {
+			font-family: Lato;
+			font-style: normal;
+			font-weight: 900;
+			font-size: 46px;
+			line-height: 130%;
+			color: #1E212C;
+			margin-bottom: 48px;
+			@media(max-width: $breakpoint992){
+				font-size: 42px;
+				margin-bottom: 30px;
+			}
+			@media(max-width: $breakpoint480){
+				font-size: 38px;
+			}
+		}
+		// .aboutUsHeader__subtitle
+		&__subtitle {
+			font-family: Lato;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 150%;
+			color: #1E212C;
+			margin-bottom: 24px;
+			@media(max-width: $breakpoint992){
+				margin-bottom: 18px;
+			}
+			@media(max-width: $breakpoint480){
+				font-size: 18px;
+			}
+		}
+		// .aboutUsHeader__text
+		&__text {
+			font-family: Lato;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 160%;
+			color: #424551;
+			@media(max-width: $breakpoint480){
+				font-size: 14px;
+			}
+		}
+}
+.aboutUsHeader__img {
+	display: flex;
+	align-self: flex-start;
+	@media(max-width: $breakpoint992){
+		max-width: 380px;
+	}
+	@media(max-width: $breakpoint825){
+		margin-top: 30px;
+	}
+	@media(max-width: $breakpoint650){
+		max-width: 340px;
+	}
+	@media(max-width: $breakpoint480){
+		max-width: 300px;
+	}
+}
+
+.aboutUsHeader__btn-wrapper {
+	display: flex;
+	gap: 25px;
+	margin-top: 60px;
+	@media(max-width: $breakpoint992){
+		margin-top: 40px;
+	}
+	@media(max-width: $breakpoint480){
+		flex-direction: column;
+		max-width: 230px;
+		justify-content: center;
+		align-items: center;
+		margin: 0 auto;
+		margin-top: 25px;
+		gap: 15px;
+	}
+}

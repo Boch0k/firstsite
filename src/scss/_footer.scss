@@ -1,0 +1,181 @@
+// Footer
+
+footer {
+	background-color: #1E212C;
+    display: block;
+	padding-top: 82px;
+	padding-bottom: 20px;
+}	
+
+
+.footer {
+		// .footer__wrapper
+		&__wrapper {
+			flex-wrap: wrap;
+			display: flex;
+			justify-content: space-between;
+		}
+		// .footer__first
+		&__first {
+			display: flex;
+			flex-direction: column;
+			gap: 25px;
+			max-width: 280px;
+		}
+		// .footer__logo
+		&__logo {}
+}
+
+.footer__first__icon {
+	display: flex;
+	gap: 22px;
+}
+
+.footer__first__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 18px;
+	opacity: 0.6;
+	color: #FFFFFF;
+}
+.footer__site-map {
+	@media(max-width: $breakpoint650){
+		display: none;
+	}
+}
+.footer {
+		// .footer__site-map
+		&__site-map {
+			
+		}
+}
+
+.footer__courses {
+	@media(max-width: 425px){
+		margin-top: 60px;
+	}
+}
+.site-map {
+	
+		// .site-map__title
+		&__title {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 150%;
+			display: flex;
+			align-items: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #FFFFFF;
+			
+
+		}
+		// .site-map__list
+		&__list {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 160%;
+			display: flex;
+			align-items: center;
+			color: #FFFFFF;
+			margin-top: 8px;
+		}
+		&__list a{
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 160%;
+			display: flex;
+			align-items: center;
+			color: #FFFFFF;
+			opacity: 0.6;
+		}
+		&__list a:hover{
+			transition: 0.3s ease-in;
+			opacity: 1;
+		}
+}
+
+.footer_icon {
+	opacity: 0.6;
+	margin-right: 8px;
+}
+.sign__up-footer {
+	margin-bottom: 24px;
+	@media(max-width: $breakpoint992){
+		margin-top: 60px;
+	}
+}
+.footer__input {
+	
+	color: #fff;
+	background: rgba(255, 255, 255, 0.12);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	box-sizing: border-box;
+	border-radius: 4px;
+	padding: 9px 12px;
+	outline: none;
+	width: 286px;
+	vertical-align: middle;
+	position: absolute;
+}
+
+.footer__submit {
+	position: relative;
+	top: 7px;
+	left: 258px;
+	width: 20px; /* Ширина кнопки */
+    height: 20px; /* Высота кнопки */
+    border: none; /* Убираем рамку */
+    background: url(../img/input__Right.svg) no-repeat 50% 50%;
+}
+
+.footer__subcribe-text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 150%;
+	margin-top: 20px;
+	color: #FFFFFF;
+	max-width: 286px;
+	
+
+}
+
+.footer {
+		// .footer__copy
+		&__copy {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 80px;
+			
+		}
+}
+.copy {
+		// .copy__text
+		&__text {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 12px;
+			line-height: 150%;
+			display: flex;
+			align-items: center;
+			color: #FFFFFF;
+		}
+		// .copy__go
+		&__go {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 14px;
+			line-height: 150%;
+			color: #FFFFFF;
+			opacity: 0.6;
+			display: flex;
+			align-items: center;
+		}
+}
+
+

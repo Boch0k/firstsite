@@ -1,0 +1,39 @@
+.aboutUsTeam {
+	padding-bottom: 120px;
+		// .aboutUsTeam__text-wrapper
+		&__text-wrapper {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			
+		}
+		// .aboutUsTeam__wrapper
+		&__wrapper {
+			flex-wrap: wrap;
+			display: flex;
+			gap: 30px;
+			justify-content: center;
+		}
+}
+.container {
+}
+.team {
+		
+		&__card1 {
+			margin-top: 60px;
+			max-width: 290px;
+		}
+}
+.card {
+		// .card__img
+		&__img1{
+			padding: 0 10px;
+			background: #FFCF2D;
+			
+			text-align: center;
+		}
+		// .card__name
+		&__name {}
+		// .card__subtitle
+		&__subtitle {}
+}

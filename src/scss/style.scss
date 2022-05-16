@@ -1,0 +1,33 @@
+// Global SCSS-files imports
+@import './vars';
+@import './reset';
+@import './global';
+
+// Sections or Pages SCSS-files imports
+@import './header';
+@import './footer';
+@import './mainPage/hero';
+@import './mainPage/why-creax';
+@import './mainPage/featured';
+@import './mainPage/benefits';
+@import './mainPage/events';
+@import './mainPage/_sertificat';
+@import './mainPage/team';
+@import './mainPage/testimonials';
+@import './mainPage/blog';
+@import './mainPage/subcribe';
+@import './coursesPage/coursesMain';
+@import './AboutUsPage/aboutUsHeader';
+@import './AboutUsPage/videoStatistics';
+@import './AboutUsPage/aboutUsValues';
+@import './AboutUsPage/whatWeTeach';
+@import './AboutUsPage/studyingProcess';
+@import './AboutUsPage/aboutUsTeam';
+@import './eventsPage/eventHeader';
+@import './eventsPage/eventsAbout';
+
+
+
+
+// Libs
+@import './libs/swiper';

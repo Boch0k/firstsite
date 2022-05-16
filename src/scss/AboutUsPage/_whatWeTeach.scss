@@ -1,0 +1,100 @@
+.whatWeTeach {
+	padding-top: 180px;
+	padding-bottom: 180px;
+		// .whatWeTeach__info
+		&__info {
+			text-align: center;
+			margin-bottom: 60px;
+		}
+		// .whatWeTeach__subtext
+		&__subtext {
+			margin-bottom: 8px;
+		}
+		// .whatWeTeach__wrapper
+		&__wrapper {
+			display: flex;
+			gap: 10px;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		// .whatWeTeach__cardTeach
+		&__cardTeach {
+			background: #FFFFFF;
+			border: 1px solid #E5E8ED;
+			box-sizing: border-box;
+			border-radius: 4px;
+			max-width: 391px;
+			
+		}
+}
+.cardTeach__who {
+	margin: 0;
+	margin-bottom: 21px;
+}
+
+.whatWeTeach {
+		// .whatWeTeach__cardComing
+		&__cardComing {
+			background: #F4F5F7;
+			border-radius: 4px;
+			width: 390px;
+			max-width: 390px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			min-height: 420px;
+		}
+}
+.cardComing {
+		// .cardComing__text
+		&__text {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 150%;
+			text-align: center;
+			color: #424551;
+			max-width: 242px;
+		}
+}
+
+
+.cardTeach {
+	
+		// .cardTeach__info
+		&__info {
+			padding: 24px;
+		}
+		// .cardTeach__text
+		&__text {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 16px;
+			line-height: 160%;
+			color: #787A80;
+			margin-bottom: 20px;
+		}
+}
+.fuatured-who {
+		// .fuatured-who__marketing
+		&__marketing {}
+}
+.podcast {
+		// .podcast__link
+		&__link a{
+			color: #1E212C;
+		}
+		&__link a:hover{
+			transition: 0.3 ease-in;
+			color: red;
+		}
+		// .podcast__link-text
+		&__link-text {}
+}
+
+.whatWeTeach__img {
+	@media(max-width: $breakpoint480){
+		max-width: 390px;
+    	width: 100%;
+	}
+}

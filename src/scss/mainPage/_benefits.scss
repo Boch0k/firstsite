@@ -1,0 +1,152 @@
+.benefit__section {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+.benefit {
+		// .benefit__head
+		&__head {}
+		// .benefit__heder-subtitle
+		&__header-subtitle {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 150%;
+			text-align: center;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #1E212C;
+		}
+		// .benefit__header-title
+		&__header-title {
+			font-style: normal;
+			font-weight: 900;
+			font-size: 46px;
+			line-height: 130%;
+			text-align: center;
+			color: #1E212C;
+			padding-bottom: 60px;
+			@media (max-width: $breakpoint992) {
+				
+				padding-bottom: 35px;
+    		}
+		}
+		
+}
+.benefit {
+		&__wrapper {
+			display: flex;
+			@media (max-width: $breakpoint992) {
+				flex-wrap: wrap;	
+				gap: 20px;
+				justify-content: center;
+    		}
+			@media (max-width: $breakpoint768) {
+				display: block;
+				max-resolution: 0 auto;
+    		}
+		}
+}
+
+.benefit_svg {
+	
+}
+
+.btn-benefit {
+	@media (max-width: $breakpoint992) {
+		flex: 0 1 35%;
+		justify-content: center;		
+    }
+	@media (max-width: $breakpoint768) {
+		margin: 0 auto;
+   	}
+	display: flex;
+    justify-content: center;
+	flex: 0 1 100%;
+    gap: 8px;
+	max-width: 307px;
+	&_disable {
+		@media (max-width: $breakpoint992) {
+			flex: 0 1 35%;	
+   		}
+		@media (max-width: $breakpoint768) {
+			flex: 0 1 100%;
+			margin: 0 auto;
+			margin-top: 10px;
+   		}
+		flex: 0 1 100%;
+		
+		gap: 8px;
+		display: flex;
+		justify-content: center;
+		width: 307px;
+		border: none;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 160%;
+		display: flex;
+		align-items: center;
+		text-align: center;
+		color: #9A9CA5;
+
+	}
+}
+
+.benefit__illustation {
+	@media (max-width: $breakpoint992) {
+		max-width: 400px;
+   	}
+	@media (max-width: $breakpoint768) {
+		margin-top: 20px;
+		max-width: 300px;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		
+   	}	
+}
+
+.benefints {
+		// .benefints__information-wrapper
+		&__information-wrapper {
+			display: flex;
+			justify-content: space-between;
+			margin-top: 60px;
+			align-items: center;
+			@media (max-width: $breakpoint768) {
+				display: block;
+   			}
+		}
+}
+.benefit-text {
+	max-width: 495px;
+	@media (max-width: $breakpoint768) {
+		margin: 0 auto;
+   	}
+}
+.betefit-title-information {
+	@media (max-width: $breakpoint768) {
+		margin: 0 auto;
+		text-align: center;
+   	}
+	font-style: normal;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 130%;
+	color: #1E212C;
+}
+.benefit-subtitle {
+	@media (max-width: $breakpoint768) {
+		
+		text-align: center;
+   	}
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	margin-top: 24px;
+
+}
+
+

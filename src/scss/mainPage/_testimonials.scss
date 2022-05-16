@@ -1,0 +1,148 @@
+.swiper-button-prev1 {
+	@media (max-width: $breakpoint650) {
+        display: none;
+    }
+	display: flex;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	justify-content: center;
+}
+
+.swiper-button-prev1:hover {
+	svg {
+		transition: 0.3s all ease-in;
+		fill: white;
+	}
+	transition: 0.3s all ease-in;
+	background: #FF3F3A;
+	
+}
+.swiper-button-next1:hover {
+	svg {
+		transition: 0.3s all ease-in;
+		fill: white;
+	}
+	transition: 0.3s all ease-in;
+	background: #FF3F3A;
+}
+
+.swiper-button-next1 {
+	@media (max-width: $breakpoint650) {
+        display: none;
+    }
+	transform: rotate(-180deg);
+	display: flex;
+	align-items: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	justify-content: center;
+}
+
+.card__review__photo__text {
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+.card__review__photo__wrapper {
+	display: flex;
+	margin-left: 50px;
+}
+
+.testimonials__subtext {
+	text-align: center;
+}
+
+.testimonials__title {
+	text-align: center;
+	margin-bottom: 60px;
+}
+.testimonials {
+	padding-top: 180px;
+		background: #F4F5F7;
+		padding-bottom: 100px;
+		// .testimonials__info
+		&__info {
+			
+		}
+		// .testimonials__wrapper
+		&__wrapper {
+			@media (max-width: $breakpoint992) {
+        		gap: 60px;
+    		}
+			@media (max-width: $breakpoint992) {
+        		gap: 10px;
+    		}
+			display: flex;
+			justify-content: space-between;
+			gap: 80px;
+			align-items: center;
+		}
+}
+
+.card__review__text {
+	font-family: Lato;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #424551;
+	max-width: 752px;
+	margin-bottom: 24px;
+	@media (max-width: $breakpoint650) {
+        font-size: 16px;
+    }
+
+}
+
+
+
+.braces-review {
+	display: flex;
+	align-self: flex-start;
+}
+.card__review__text__wrapper {
+	display: flex;
+	gap: 30px;
+	justify-content: flex-start;
+}
+.card {
+		// .card__review
+		&__review {
+			@media (max-width: $breakpoint992) {
+        		padding: 40px 80px;
+    		}
+			@media (max-width: $breakpoint768) {
+        		padding: 20px 60px;
+    		}
+			@media (max-width: $breakpoint650) {
+        		padding: 5px;
+    		}
+			max-width: 1200px;
+			margin: 0 auto;
+			box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+			border-radius: 5px;
+			padding: 64px 105px;
+			display: block;
+			background: #FFFFFF;
+		}
+		// .card__text-title
+		&__text-title {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 160%;
+			color: #1E212C;
+		}
+		// .card__text-sub-text
+		&__text-sub-text {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 150%;
+			color: #787A80;
+		}
+}
+

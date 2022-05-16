@@ -1,0 +1,75 @@
+.videoStat {
+	padding-bottom: 180px;
+		// .videoStat__play-video
+		&__play-video {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			margin-bottom: 32px;
+		}
+		// .videoStat__watch-video
+		&__watch-video {}
+		// .videoStat__wrapper
+		&__wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			@media(max-width: $breakpoint768){
+				flex-direction: column;
+
+			}
+		}
+		// .videoStat__statistics
+		&__statistics {
+			@media(max-width: $breakpoint768){
+				margin-top: 30px;
+				
+				display: flex;
+				flex-direction: column;
+			}
+		}
+}
+.container {
+}
+.statistics {
+		// .statistics__block
+		&__block {
+			display: flex;
+			align-items: center;
+			gap: 16px;
+			
+		}
+		// .statistics__block-maintext
+		&__block-maintext {
+			font-style: normal;
+			font-weight: 900;
+			font-size: 48px;
+			line-height: 130%;
+			letter-spacing: 1px;
+			color: #FF3F3A;
+
+		}
+		// .statistics__block-subtext
+		&__block-subtext {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 150%;
+			color: #1E212C;
+
+		}
+}
+
+.videoStat__img {
+	@media(max-width: $breakpoint1180){
+		max-width: 650px;
+		height: auto;
+		width: 100%;
+	}
+	@media(max-width: $breakpoint992){
+		max-width: 510px;
+	}
+	@media(max-width: $breakpoint825){
+		max-width: 425px;
+	}
+}

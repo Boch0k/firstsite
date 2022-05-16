@@ -1,0 +1,184 @@
+.second {
+		// .second__featured
+		&__featured {
+			padding-top: 40px;
+			padding-bottom: 180px;
+		}
+}
+
+.featured {
+		// .featured__first-wrapper
+		&__first-wrapper {
+			display: flex;
+			justify-content: space-between;
+			align-items: flex-end;
+			@media (max-width: $breakpoint768) {
+        	display: block;	
+			text-align: center;
+    	}
+
+		}
+		// .featured__text
+		
+		&__ready {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 16px;
+			line-height: 150%;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			color: #1E212C;
+			margin-bottom: 8px;
+		}
+		// .featured__courses
+		&__courses {
+			font-style: normal;
+			font-weight: 900;
+			font-size: 46px;
+			line-height: 130%;
+			
+			color: #1E212C;
+		}
+		// .featured__btn-outline
+		&__btn-outline {
+			max-width: 202px;
+			padding: 0 40px;
+			max-height: 52px;
+			@media (max-width: $breakpoint768) {
+        		margin: 0 auto;
+				margin-top: 15px;
+			}
+		}
+}
+
+.featured {
+		// .featured__second-wrapper
+		&__second-wrapper {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 30px;
+			margin-top: 60px;
+		}
+		// .featured__card
+		&__card {
+			@media (max-width: $breakpoint992) {
+        	flex: 0 0 65%;
+			margin: 0 auto;	
+    	}
+		@media (max-width: $breakpoint768) {
+        	display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			gap: 10px;	
+    	}
+			flex: 0 1 48%;
+			display: flex;
+			gap: 32px;
+			background: #FFFFFF;
+			border: 1px solid #E5E8ED;
+			box-sizing: border-box;
+			box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08), 0px 30px 24px -10px rgba(154, 156, 165, 0.05), 0px 12px 10px -6px rgba(154, 156, 165, 0.04), 0px 4px 4px -4px rgba(30, 33, 44, 0.03);
+			border-radius: 4px;
+		}
+		// .featured__card-info
+		&__card-info {
+			@media (max-width: $breakpoint768) {
+        		display: flex;
+				flex-direction: column;
+				align-items: center;
+				text-align: center;;	
+    		}
+			
+		}
+		// .featured__card-title
+		&__card-title {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 20px;
+			line-height: 150%;
+			color: #1E212C;
+			max-width: 332px;
+			margin-bottom: 20px;
+			@media (max-width: $breakpoint768) {
+        		font-size: 18px;
+    		}
+		}
+		// .featured__card-money
+		&__card-money {
+			font-style: normal;
+			font-weight: bold;
+			font-size: 18px;
+			line-height: 150%;
+			color: #FF4242;
+			@media (max-width: $breakpoint768) {
+    	   		font-size: 14px;
+    		}
+		}
+		// .featured__card-name
+		&__card-name  {
+			font-style: normal;
+			font-weight: normal;
+			font-size: 18px;
+			line-height: 150%;
+			color: #787A80;
+			@media (max-width: $breakpoint768) {
+       			font-size: 14px;
+    		}
+		}
+}
+
+.featured__card-img {
+	@media (max-width: $breakpoint992) {
+        max-width: 200px;
+		
+    }
+}
+.featured-slash {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 150%;
+	color: #787A80;
+	@media (max-width: $breakpoint768) {
+        font-size: 14px;
+    }
+}
+.fuatured-who {
+	@media (max-width: $breakpoint768) {
+        margin-top: 10px;
+    }
+	max-width: 105px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 150%;
+	color: #FFFFFF;
+	text-align: center;
+	margin-top: auto;
+	background: #03CEA4;
+	border-radius: 4px;
+	margin-bottom: 21px;
+	margin-top: 32px;
+	@media (max-width: $breakpoint768) {
+        font-size: 14px;
+    }
+}
+.fuatured-who-management {
+	background: #5A87FC;
+}
+
+.featured-who-recruting {
+	background: #F89828;
+}
+
+.fuatured-who-design {
+	background: #F52F6E;
+}
+
+.wrapper-earn {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
